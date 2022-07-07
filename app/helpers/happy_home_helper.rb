@@ -1,0 +1,2 @@
+module HappyHomeHelper
+end

@@ -1,0 +1,108 @@
+.logo-img {
+    position: absolute;
+    width: 15%;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.drop_down {
+    margin-left: 45%;
+    margin-top: 2%;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    // background: #f2f2f2;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+    text-align: left;
+}
+
+ul li a {
+    display: block;
+    padding: 8px 25px;
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ul li a:hover {
+    color: #86DB99;
+}
+
+ul li ul.dropdown {
+    min-width: 100%;
+    background: #f2f2f2;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+.login_btn {
+    margin-left: 35%;
+    margin-top: -3%;
+    position: absolute;
+    border-radius: 1.5vh;
+    height: 5%;
+    width: 5%;
+    border: none;
+    background-color: #86DB99;
+    font-weight: 500;
+}
+
+.login_btn:hover {
+    background-color: #3d7047;
+    color: white;
+}
+
+.signup_btn {
+    margin-left: 42%;
+    margin-top: -3%;
+    position: absolute;
+    border-radius: 1.5vh;
+    height: 5%;
+    width: 10%;
+    background-color: #86DB99;
+    border: none;
+    font-weight: 500;
+}
+
+.signup_btn:hover {
+    background-color: #3d7047;
+    color: white;
+}
+
+.search input[type=text] {
+    width: 300px;
+    height: 45px;
+    border-radius: 25px;
+    margin-left: 24%;
+    margin-top: -3%;
+    position: absolute;
+    padding-left: 20px;
+}
+
+.search-img {
+    width: 1.5%;
+    position: absolute;
+    margin-left: 37%;
+    margin-top: -2.4%;
+}
+
+.video1 {
+    margin-left: 10%;
+}

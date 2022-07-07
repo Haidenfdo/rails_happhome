@@ -1,0 +1,33 @@
+
+<a class="navbar-brand" href="#"><%= image_tag("logo.png",alt: "logo",class: "logo-img", id:"logo-img-3") %></a>
+<div class="drop_down">
+<ul>
+
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li>
+            <a href="#">Categories ▾</a>
+            <ul class="dropdown">
+                <li><a href="#">Hostels</a></li>
+                <li><a href="#">Pg</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Service Apartments</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <button class="login_btn">Login</button>
+    <button class="signup_btn">Create Account</button>
+    </div>
+
+    <div class="search">
+            <form action="#">
+                <input type="text"
+                    placeholder="Search Pg's"
+                    name="search">
+                    <%= image_tag("search_icon.png",alt: "logo",class: "search-img", id:"logo-img-3") %>
+                    <%= video_tag("home_video.mp4",:size => "1520x870", autoplay: :true,loop: :true,class:"video1",) %>
+            </form>
+        </div>
+
+    
