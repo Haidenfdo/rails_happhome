@@ -1,0 +1,46 @@
+.sign_box {
+    width: 40%;
+    height: 30%;
+    background-color: #86DB99;
+    margin-left: 29%;
+    margin-top: 12%;
+    box-shadow: 1px 3px 6px 10px rgba(1, 1, 1, 0.1);
+    border-radius: 24px;
+}
+
+#sign_inp {
+    border-top: black;
+    border-right: black;
+    border-left: black;
+    margin-left: 25%;
+    margin-top: 5%;
+    width: 50%;
+    height: 55px;
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: aliceblue;
+    padding-left: 3.5%;
+}
+
+.f_sub {
+    margin-left: 40%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    border-radius: 1.5vh;
+    height: 48px;
+    width: 16%;
+    background-color: #22b9b1;
+    color: white;
+    font-weight: 900;
+    font-size: larger;
+    border: none;
+}
+
+.f_sub:hover {
+    background-color: #18c6bd;
+}
